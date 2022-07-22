@@ -11,7 +11,7 @@ function url(){
   );
 }
 
-if($_POST) {
+if(isset($_POST)) {
 
    $name = trim(stripslashes($_POST['name']));
    $email = trim(stripslashes($_POST['email']));
