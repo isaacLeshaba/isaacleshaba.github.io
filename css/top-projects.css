@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-pro a i {
+    opacity: 0;
+    font-size: 18px;
+    color: #fff;
+    will-change: transform;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+h2 {
+    pointer-events: none;
+}
+
+
+.container-pro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-pro .card-pro {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.container-pro .card-pro:before {
+    content: "";
+    z-index: 99;
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #E6E5E1;
+}
+
+.container-pro .card-pro:after {
+    content: "";
+    z-index: 99;
+    position: absolute;
+    bottom: -10px;
+    left: 32px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #E6E5E1;
+}
+
+.container-pro .card-pro ul {
+    z-index: 99;
+    position: absolute;
+    left: 39px;
+    top: 5px;
+    list-style-type: none;
+}
+
+.container-pro .card-pro ul li {
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+    margin: 6px 0;
+    background-color: #E6E5E1;
+}
+
+.container-pro .card-pro h2 {
+    z-index: 99;
+    /* font-family: "Poppins", sans-serif; */
+    position: absolute;
+    bottom: 0px;
+    /* right: 239px; */
+    border-radius: 50px;
+    background-color: rgba(86, 186, 209, 0.5);
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    left: 8px;
+    padding: 2%;
+}
+
+.container-pro .card-pro .fa-arrow-right {
+    z-index: 100;
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.container-pro .card-pro p {
+    z-index: 99;
+    position: absolute;
+    top: 31px;
+    right: 0px;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 20px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.container-pro .card-pro .pic {
+    z-index: 100;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/projects/hlumani2.png');
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+}
+
+.container-pro .card-pro:hover i {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.container-pro .card-pro button {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    width: 30px;
+    height: 30px;
+    background-color: #0BC9F1;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    mix-blend-mode: hard-light;
+}
+
+.container-pro .card-pro button i {
+    font-size: 3rem;
+}
+
+.container-pro .card-pro:hover button {
+    transform: scale(16.5);
+}
+
+.container-pro .card-pro:hover p {
+    color: #fff;
+}
+
+.container-pro .card-pro:hover .pic {
+    filter: grayscale(0);
+}
+
+.container-pro .card-pro2 .pic {
+    background-image: url("../img/projects/breeders2.png");
+}
+
+
+
+
+.container-pro .card-pro3 .pic {
+    z-index: 100;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/projects/hopsandbarrels.png');
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+}
+
+.container-pro .card-pro4 .pic {
+    z-index: 100;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/projects/chg.png');
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+}
+
+.container-pro .card-pro5 .pic {
+    z-index: 100;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/projects/TribeNova.png');
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+}
+
+.container-pro .card-pro6 .pic {
+    z-index: 100;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/projects/queshinmark.png');
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+}
+
+.container-pro .card-pro7 .pic {
+    z-index: 100;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/coming-soon.png');
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+}
+
+.dr {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 100px;
+}
+

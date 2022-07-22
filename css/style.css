@@ -1,0 +1,165 @@
+.copyright {
+    padding: 10px
+}
+
+nav a:hover {
+    color: #fff !important;
+    text-shadow: 4px 5px 7px black !important;
+}
+
+.btn-primary {
+    background-color: #0BC9F1;
+    border-color: #0BC9F1;
+}
+
+.btn-primary:hover {
+    background-color: #099DC0 !important;
+    border-color: #099DC0 !important;
+}
+
+.circle-icon {
+    background: #56BAD1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.icon-background {
+    color: #56BAD1;
+}
+
+/* Contact form */
+
+
+#contactForm .error {
+    color: red;
+    font-size: 12px;
+}
+
+#contactForm .form-control {
+    font-size: 16px;
+}
+
+#quickForm .error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    display: block;
+}
+
+#quickForm .form-control {
+    font-size: 16px;
+}
+
+#message {
+    resize: vertical;
+}
+
+#form-message-warning,
+#form-message-success {
+    display: none;
+}
+
+#form-message-warning {
+    color: red;
+}
+
+#form-message-success {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formitem {
+    padding: 0px
+}
+
+.home .temporarylinks a {
+    color: #000;
+    position: inherit;
+}
+
+.intropanel {
+    display: flex;
+    justify-content: center !important;
+    vertical-align: middle;
+    margin: 0 auto;
+    /* position: relative; */
+    line-height: 2.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn {
+    position: initial !important;
+}
+
+.skill-image {
+    width: 20%;
+    height: auto;
+}
+
+.skill {
+    text-align: left;
+}
+
+.trans {
+    color: #fff;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-align: left;
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    background-color: #0BC9F1 !important;
+}
+
+.m-0 {
+    padding-bottom: 13px;
+}
+
+.skilltitle {
+    color: #0BC9F1;
+    font-weight: 700;
+}
+
+.isaac {
+    width: 50px;
+
+}
+
+.ice a {
+    position: initial;
+    float: left;
+    margin-left: 0.8%;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: #0BC9F1;
+}
+
+::selection {
+    background: #0BC9F1;
+}
